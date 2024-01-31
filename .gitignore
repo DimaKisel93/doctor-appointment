@@ -1,0 +1,14 @@
+node_modules/
+*.log
+*.json~
+*.swp
+
+.env
+
+.vscode/
+.idea/
+
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
