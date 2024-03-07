@@ -1,8 +1,8 @@
-const esbuild = require('esbuild');
+import { build } from 'esbuild';
 
-esbuild.build({
-  entryPoints: ['./server.ts'],
-  outfile: './dist/server.js',
+build({
+  entryPoints: ['./server/server.ts'],
+  outfile: './dist/server/server.js',
   platform: 'node',
   bundle: true,
   format: 'esm',
